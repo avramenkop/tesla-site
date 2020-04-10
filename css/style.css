@@ -178,10 +178,6 @@ body {
     margin-bottom: 100px;
 }
 
-.container :last-child {
-    margin-bottom: 0;
-}
-
 .advantages-row {
     display: flex;
     justify-content: space-between;
@@ -282,3 +278,80 @@ top: 0;
     left: -15px;
 }
 
+
+
+
+/* меню */
+
+.nav {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    background: #000;
+    z-index: 7;
+    transition: all .5s;
+}
+
+.nav.active {
+    left: 0;
+}
+
+.nav-container {
+    position: relative;
+}
+
+.list-wrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.list-wrapper.nav__list {
+    list-style: none;
+    max-width: 368px;
+    width: 100%;
+}
+
+.list-wrapper .nav__item {
+    padding: 30px 25px 20px 0;
+    border-bottom: 2px solid #B70021;
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 700;
+    transition: all .5s;
+}
+
+.list-wrapper .nav__item:hover {
+    border-bottom: 2px solid #fff;
+    transform: scale(1.2);
+    margin-left: 33px;
+}
+
+.nav-btn {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background: #000;
+    right: 15px;
+    top: 31px;
+    cursor: pointer;
+}
+
+.nav-btn::before, .nav-btn::after {
+    content: '';
+    height: 2px;
+    width: 70px;
+    background: #fff;
+    position: absolute;
+    transform-origin: left;
+}
+
+.nav-btn::before {
+    transform: rotate(-45deg);
+    bottom: -1px;
+}
+
+.nav-btn::after {
+    transform: rotate(45deg);
+}
