@@ -1,52 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/slick.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed:400,700&display=swap&subset=cyrillic" rel="stylesheet">
-</head>
-<body>
-
-  <header class="header">
-    <div class="container">
-      <div class="header-top">
-        <div class="logo">
-          <a href="#">
-            <img src="images/logo.png" alt="logo">
-          </a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed:400,700&display=swap&subset=cyrillic"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-top">
+          <div class="logo">
+            <a href="#">
+              <img src="images/logo.png" alt="logo" />
+            </a>
+          </div>
+          <div class="header-btn">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
         </div>
-        <div class="header-btn">
-          <div></div>
-          <div></div>
-          <div></div>
+        <div class="header-content">
+          <h1 class="header-content__title">Roadster</h1>
+          <div class="header-content__text">
+            Самый быстрый автомобиль в мире, с рекордным ускорением, дальностью
+            и производительностью.
+          </div>
+          <a href="#" class="button">Хочу тест драйв</a>
         </div>
       </div>
-      <div class="header-content">
-        <h1 class="header-content__title">Roadster</h1>
-        <div class="header-content__text">
-            Самый быстрый автомобиль в мире, с рекордным ускорением, дальностью и производительностью.
+    </header>
+
+    <section class="slider-top">
+      <div class="slider">
+        <div
+          class="slider__item"
+          style="background-image: url(images/slide-1.jpg);"
+        ></div>
+        <div
+          class="slider__item"
+          style="background-image: url(images/slide-2.jpg);"
+        ></div>
+        <div
+          class="slider__item"
+          style="background-image: url(images/slide-3.jpg);"
+        ></div>
+      </div>
+    </section>
+
+    <section class="strengths">
+      <div class="container">
+        <div class="strengths-row">
+          <div class="strengths-item">
+            <div class="strengths-item__title">Двигатель</div>
+            <div class="strengths-item__num">2,1 <span>сек</span></div>
+            <div class="strengths-item__descr">Разгон до 100 км/ч</div>
+          </div>
+          <div class="strengths-item">
+            <div class="strengths-item__title">Батарея</div>
+            <div class="strengths-item__num">1000 <span>км</span></div>
+            <div class="strengths-item__descr">Запас хода</div>
+          </div>
+          <div class="strengths-item">
+            <div class="strengths-item__title">Скорость</div>
+            <div class="strengths-item__num strengths-item__num--speed">
+              400 <span>км/ч</span>
+            </div>
+            <div class="strengths-item__descr">Макс скорость</div>
+          </div>
         </div>
-        <a href="#" class="header-content__btn">Хочу тест драйв</a>
       </div>
+    </section>
+
+    <section class="video">
+      <div class="container">
+        <img src="images/video.jpg" alt="" />
       </div>
-  </header>
+    </section>
 
-  <section class="slider-top">
-    <div class="slider">
-      <div class="slider__item" style="background-image: url(images/slide-1.jpg);"></div>
-      <div class="slider__item" style="background-image: url(images/slide-2.jpg);"></div>
-      <div class="slider__item" style="background-image: url(images/slide-3.jpg);"></div>
-    </div>
-  </section>
+    <section class="advantages">
+      <div class="container">
+        <div class="advantages-row">
+          <div class="advantages__descr">
+            <div class="advantages__title">
+              Скорость
+            </div>
+            <div class="advantages__text">
+              Самый быстроразгоняющийся серийный автомобиль из когда-либо
+              созданных
+            </div>
+          </div>
+          <div class="advantages__img">
+            <img src="images/advantages-1.jpg" alt="" />
+          </div>
+        </div>
 
+        <div class="advantages-row">
+          <div class="advantages__img">
+            <img src="images/advantages-2.jpg" alt="" />
+          </div>
+          <div class="advantages__descr">
+            <div class="advantages__text">
+              <ul class="advantages-list">
+                <li class="advantages-list__item">Датчик дождя</li>
+                <li class="advantages-list__item">Датчик света</li>
+                <li class="advantages-list__item">Автопилот</li>
+                <li class="advantages-list__item">Навигационная система</li>
+                <li class="advantages-list__item">Обогрев зеркал</li>
+                <li class="advantages-list__item">Усилитель руля</li>
+                <li class="advantages-list__item">Панорамная крыша</li>
+                <li class="advantages-list__item">Ксеноновые фары</li>
+              </ul>
+            </div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="js/slick.min.js"></script>
-<script src="js/main.js"></script>
-</body>
+            <div class="advantages__title advantages__title--bottom">
+              Преимущества
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="design">
+      <div class="container">
+        <div class="design-img">
+          <img src="images/design.jpg" alt="" />
+        </div>
+        <div class="design-descr">
+          <div class="desing-desrc__col">
+            <div class="design-descr__num">01</div>
+            <div class="design-descr__text">
+              Новый родстер был разработан бывшим дизайнером Mazda Францем фон
+              Хольцхаузеном. Имеет съёмную стеклянную крышу и кузов с двумя
+              передними сиденьями плюс два небольших сиденья сзади.
+            </div>
+          </div>
+
+          <div class="desing-desrc__col">
+            <div class="design-descr__num">02</div>
+            <div class="design-descr__text">
+              Родстер имеет три электродвигателя, один спереди и два сзади, Они
+              обеспечивают полный привод, а также систему адресного
+              распределения крутящего момента для лучшего прохождения поворотов.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-btn">
+          <a href="#" class="button button--bottom">Хочу тест драйв</a>
+        </div>
+        <div class="menu">
+          <ul class="menu-list">
+            <li class="menu-list__item">Tesla © 2020</li>
+            <li class="menu-list__item">
+              <a href="#" class="menu-list__link">Privacy & Legal</a>
+            </li>
+            <li class="menu-list__item">
+              <a href="#" class="menu-list__link">Contact</a>
+            </li>
+            <li class="menu-list__item">
+              <a href="#" class="menu-list__link">Careers</a>
+            </li>
+            <li class="menu-list__item">
+              <a href="#" class="menu-list__link">Get Newsletter</a>
+            </li>
+            <li class="menu-list__item">
+              <a href="#" class="menu-list__link">Forums</a>
+            </li>
+            <li class="menu-list__item">
+              <a href="#" class="menu-list__link">Locations</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
