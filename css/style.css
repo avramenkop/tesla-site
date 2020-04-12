@@ -355,3 +355,138 @@ top: 0;
 .nav-btn::after {
     transform: rotate(45deg);
 }
+
+
+/* -------------------------- адаптив -------------------------- */
+
+@media(max-width: 1230px) {
+    .advantages__descr--mobile {
+        margin-left: 40px;
+    }
+    .design-img {
+        margin-bottom: 50px;
+    }
+    .design-img img {
+        width: 97%;
+    }
+    .design-descr {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media(max-width: 1230px) {
+    .desing-desrc__col {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 1185px) {
+    .video {
+        margin-bottom: 50px;
+    }
+    .advantages-row {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    .advantages__descr {
+        min-width: 315px;
+        margin-bottom: 20px;
+    }
+    .advantages__text--mobile {
+        margin-top: 60px;
+    }
+    .advantages__title--bottom {
+        position: static;
+        margin-bottom: 20px;
+    }
+    .advantages__descr--mobile {
+        order: -1;
+        flex-flow: column-reverse;
+        margin-left: 0;
+    }
+}
+
+@media(max-width: 860px) {
+    .slider-top {
+        margin-bottom: 100px;
+    }
+    .strengths {
+        margin-bottom: 50px;
+    }
+    .strengths-row {
+        flex-wrap: wrap;
+    }
+    .strengths-item {
+        margin: 0 30px 30px;
+    }
+}
+
+@media(max-width: 610px) {
+    .strengths-item {
+        margin-bottom: 40px;
+    }
+    .advantages__img img {
+        width: 97%;
+    }
+    .video iframe {
+        height: 500px;
+    }
+}
+
+@media(max-width: 550px) {
+    .design-descr__num {
+        margin-right: 15px;
+    }
+    .design-descr__text {
+        width: 100%;
+    }
+    .design {
+        margin-bottom: 50px;
+    } 
+    .video iframe {
+        height: 400px;
+    }
+}
+
+@media(max-width: 430px) {
+    .header-content__title {
+        font-size: 80px;
+    }
+    .list-wrapper .nav__item {
+        font-size: 40px;
+        padding-bottom: 15px;
+    }
+}
+
+@media(max-width: 360px) {
+    .header-content__title {
+        font-size: 70px;
+        margin-bottom: 20px;
+    }
+    .logo img {
+        width: 80%;
+    }
+    .button {
+        padding-left: 55px;
+        padding-right: 55px;
+    }
+    .list-wrapper .nav__item {
+        font-size: 32px;
+        padding-bottom: 10px;
+    }
+    .strengths-item__title {
+        margin-bottom: 10px;
+    }
+    .strengths-item__num {
+        font-size: 80px;
+        margin-bottom: 0;
+    }
+    .advantages__descr {
+        min-width: 275px;
+    }
+    .video iframe {
+        height: 300px;
+    }
+}
