@@ -278,9 +278,6 @@ top: 0;
     left: -15px;
 }
 
-
-
-
 /* меню */
 
 .nav {
@@ -490,3 +487,42 @@ top: 0;
         height: 300px;
     }
 }
+
+
+@media(min-height: 320px) and (max-height: 600px) {
+    .header .logo img {
+        height: 50%;
+    }
+    .logo {
+        padding-top: 15px;
+        margin-bottom: 0;
+    }
+    .header-btn {
+        margin-top: 15px;
+    }
+    .header-content__title {
+        font-size: 50px;
+        font-family: Roboto, sans-serif;
+        line-height: 72px;
+        margin-bottom: 0;
+    }
+    .header-content__text {
+        width: 100%;
+    }
+    .button {
+        padding: 20px 30px;
+    }
+    .slider .slick-dots li {
+        display: none;
+    }
+    .list-wrapper .nav__item {
+        padding-top: 25px;
+        font-size: 20px;
+        line-height: 10px;
+        font-weight: 700;
+    }
+}
+
+
+
+
